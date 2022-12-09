@@ -87,7 +87,7 @@ namespace PurchaseRequest.Controllers
         }
 
         // GET: PurchasingRequests/Edit/5
-        //E
+        //Exeception
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.PurchasingRequests == null)
